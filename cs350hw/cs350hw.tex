@@ -1,0 +1,41 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[parfill]{parskip}
+
+\begin{document}
+
+\section*{CTPS-350 | Homework-02 }
+\subsection*{Charles Norden, \#011606177 }
+
+\subsection*{PROBLEM 1:}
+This section includes the text and paragraphs required for the first homework problem. Today I want to test
+out how the vim text editor will play with the latex compiler. In the vim editor, I usually set the line 
+length to be 110 characters; at the 111th character, a new line will be automatically inserted.
+
+Now I just tried compiling the doc and the produced pdf file displayed everything perfectly as I wanted.
+Apparently, a line between each block of text is considered a paragraph separator. Otherwise, the compiler
+just assumes that it's a space and continues as a whole paragraph.
+
+For example, let's try again with the same text but with just one newline char instead of two.
+
+This section includes the text and paragraphs required for the first homework problem. Today I want to test
+out how the vim text editor will play with the latex compiler. In the vim editor, I usually set the line 
+length to be 110 characters; at the 111th character, a new line will be automatically inserted.
+Now I just tried compiling the doc and the produced pdf file displayed everything perfectly as I wanted.
+Apparently, a line between each block of text is considered a paragraph separator. Otherwise, the compiler
+just assumes that it's a space and continues as a whole paragraph.
+\pagebreak
+
+\subsection*{PROBLEM 2:}
+In this section, I want to see if the title will be pushed up further if I try to fill the page with more
+text. I certainly don't want it to occupy only the center of the page because that would be a waste of page
+estate.
+
+Let's also add some mathematical equation in here to expand the size of the content:
+
+\[ \sum_{i=1}^{N} \frac {i^2} {N} \]
+
+This is another equation:
+
+\[ \lim_{x \to \infty } \frac{x^2}{log_2 x} \]
+
+\end{document}
